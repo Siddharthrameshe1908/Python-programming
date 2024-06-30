@@ -116,3 +116,231 @@
 # for row in range(1,6):
 #     print(f"{(str(n)+' ')*n:>10}")
 #     n-=1
+
+# n = int(input("n: "))
+# for i in range(n):
+#     for j in range(n):
+#         if i >= j:
+#             print("*",end=" ")
+#         elif i<=n:
+#             print("*",end=" ")
+#     print()
+
+# n = int(input())
+# val = 1
+# for i in range(n):
+#     for j in range(n):
+#         if i%2 == 0:
+#             print("*",end=" ")
+#         else:
+#             print(val,end=" ")
+#     print()
+#     if i%2 != 0:
+#         val +=1
+
+# n = int(input(""))
+# for i in range(n):
+#     val = 1
+#     for j in range(n):
+#         if j%2 != 0:
+#             print(val,end=" ")
+#             val += 1
+#         else:
+#             print("*",end=" ")
+#     print()
+
+# n = int(input(""))
+# for i in range(n):
+#     val = 1
+#     for j in range(n):
+#         if i == j:
+#             print("*",end=" ")
+#         elif i>=j:
+#             print(val,end=" ")
+#             val +=1
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# n = int(input(""))
+# for i in range(n):
+#     val1 = 1
+#     val2 = 1
+#     for j in range(n):
+#         if i == j:
+#             print("*",end=" ")
+#         elif i>=j:
+#             print(val1,end=" ")
+#             val1 +=1
+#         else:
+#             print(val2,end=" ")
+#             val2+=1
+#     print()
+
+# n = int(input(""))
+# val = 1
+# for i in range(n):
+#     for j in range(n):
+#         if i==j and (i%2==0 and j%2==0):
+#             print("*",end=" ")
+#         elif i==j and (i%2!=0 and j%2!=0):
+#             print(val,end=" ")
+#             val +=1 
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# n = int(input("n: "))
+# val = 1
+# for i in range(n):
+#     for j in range(n):
+#         if (i+j) == n-1:
+#             print(val,end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+#     val +=1
+
+# n = int(input(""))   #S
+# if n%2 == 0:
+#     n1 = n+1
+#     for i in range(n1):
+#         for j in range(n1):
+#             if i==0 or i==(n1)//2 or i==n:
+#                 print("*",end=" ")
+#             elif i<=n//2 and j==0:
+#                 print("*",end=" ")
+#             elif i>=n//2 and j==n1-1:
+#                 print("*",end=" ")
+#             elif i==n1-1:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+# else:
+#     for i in range(n):
+#         for j in range(n):
+#             if i==0 or i==(n)//2 or i==n:
+#                 print("*",end=" ")
+#             elif i<=n//2 and j==0:
+#                 print("*",end=" ")
+#             elif i>=n//2 and j==n-1:
+#                 print("*",end=" ")
+#             elif i==n-1:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+
+# n = int(input(""))  //T
+# if n%2 == 0:
+#     n1 = n+1
+#     for i in range(n1):
+#         for j in range(n1):
+#             if i==0 or j==n1//2:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+# else:
+#     for i in range(n):
+#         for j in range(n):
+#             if i==0 or j==n//2:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+
+
+# n =int(input(""))  #I
+# if n%2 != 0:
+#     for i in range(n):
+#         for j in range(n):
+#             if i==0 or i==n-1 or j==n//2:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+# else: 
+#     n1 = n+1
+#     for i in range(n1):
+#         for j in range(n1):
+#             if i==0 or i==n1-1 or j==n1//2:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+
+# n=int(input(""))  #D
+# for i in range(n):
+#     for j in range(n):
+#         if i==0 or i==n-1 or j==1 or j==n-1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# n=int(input(""))  #D
+# for i in range(n):
+#     for j in range(n):
+#         if i==0 or i==n-1 or j==1 or j==n-1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# n = int(input(""))  #H
+# if n%2 != 0:
+#     for i in range(n):
+#         for j in range(n):
+#             if j==0 or j==n-1 or i==n//2:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+# else:
+#     n1 = n+1
+#     for i in range(n1):
+#         for j in range(n1):
+#             if j==0 or j==n1-1 or i==n1//2:
+#                 print("*",end=" ")
+#             else:
+#                 print(" ",end=" ")
+#         print()
+
+# n = int(input(""))  #U
+# for i in range(n):
+#     for j in range(n):
+#         if j==0 or j==n-1 or i==n-1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+
+# n=int(input(""))   #P
+# for i in range(n):
+#     for j in range(n-1):
+#         if i==0 or j==0 or i==n//2:
+#             print("*",end=" ")
+#         elif i<=n//2 and j==n-2:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+
+# n = int(input(""))  #R
+# for i in range(n):
+#     for j in range(n):
+#         if i==0 or j==0 or i==n-1 or j==n-1:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
+# for i in range(1,n):
+#     for j in range(n):
+#         if j==0 or i==j:
+#             print("*",end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()
